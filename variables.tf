@@ -22,7 +22,7 @@ EOT
     name                      = string
     publisher                 = string
     type                      = string
-    automatic_upgrade_enabled = optional(bool, true)
+    automatic_upgrade_enabled = optional(bool) # Default: true
     force_update_tag          = optional(string)
     protected_settings        = optional(string)
     settings                  = optional(string)
